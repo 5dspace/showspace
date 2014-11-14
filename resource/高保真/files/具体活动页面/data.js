@@ -1,0 +1,740 @@
+﻿$axure.loadCurrentPage({
+  "url":"具体活动页面.html",
+  "generationDate":new Date(1407487650490.82),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"d8288465d86d4f47a487046c47339990",
+    "type":"Axure:Page",
+    "name":"具体活动页面",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"b6d03042e0194cb3b2c8fcac78f43743",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1616,
+              "height":1334}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ec6852c0487948b2865f8ca18a154987",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1616,
+                  "height":1334}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/具体活动页面/u0.jpg"}},
+{
+          "id":"5f4bfe97310d452498c784dd0c613d11",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1616,
+              "height":1334}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d2a14dc8eb6b4077969327d53cf1c0ca",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1616,
+                  "height":1334}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/具体活动页面/u2.png"}},
+{
+          "id":"fb27ead5b4d8416bbd0a7627addb819e",
+          "label":"近期活动",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":406,
+              "y":136},
+            "size":{
+              "width":120,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"55f8f6e46e75446a8b1bb24f3ab51ed0",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":406,
+                  "y":136},
+                "size":{
+                  "width":120,
+                  "height":40}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 近期活动",
+                      "target":{
+                        "targetType":"page",
+                        "url":"近期活动.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"1bc8e80dcccc4d1a862e36cef223e2cd",
+          "label":"活动回顾",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":526,
+              "y":136},
+            "size":{
+              "width":120,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ed8ada967a594fe3965d3935954f0fa4",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":526,
+                  "y":136},
+                "size":{
+                  "width":120,
+                  "height":40}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 活动回顾",
+                      "target":{
+                        "targetType":"page",
+                        "url":"活动回顾.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"4f5e6c8bcf294a2f849293deab93a0b9",
+          "label":"放映间",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":656,
+              "y":136},
+            "size":{
+              "width":120,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2e095ab2c4354255ab75c15cf8823e9c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":656,
+                  "y":136},
+                "size":{
+                  "width":120,
+                  "height":40}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 放映间",
+                      "target":{
+                        "targetType":"page",
+                        "url":"放映间.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"b8c55b9c79744e9d847674767c7be13e",
+          "label":"品牌活动",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":776,
+              "y":136},
+            "size":{
+              "width":120,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ff29f8e1667849ba97da8a1eb54bde3f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":776,
+                  "y":136},
+                "size":{
+                  "width":120,
+                  "height":40}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 品牌活动",
+                      "target":{
+                        "targetType":"page",
+                        "url":"品牌活动.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"eadb02001d0e4622b9eb6e80f4d29238",
+          "label":"投票专区",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":896,
+              "y":136},
+            "size":{
+              "width":120,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e2400f1539a14f5d83bc0a236072498f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":896,
+                  "y":136},
+                "size":{
+                  "width":120,
+                  "height":40}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 投票专区",
+                      "target":{
+                        "targetType":"page",
+                        "url":"投票专区.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"a39078e487d54c6b9985f71536a70b26",
+          "label":"发布活动",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":1210,
+              "y":147},
+            "size":{
+              "width":90,
+              "height":28}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d7b388b3d68340caaa3c656e5a9f767a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":1210,
+                  "y":147},
+                "size":{
+                  "width":90,
+                  "height":28}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 发布",
+                      "target":{
+                        "targetType":"page",
+                        "url":"发布.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"6c60fd168ba848d6a12f05900dbcecb3",
+          "label":"home",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":340,
+              "y":136},
+            "size":{
+              "width":56,
+              "height":39}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"47c8e1b9ca0b4267a4e1ee586cc31a2d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":340,
+                  "y":136},
+                "size":{
+                  "width":56,
+                  "height":39}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 Home",
+                      "target":{
+                        "targetType":"page",
+                        "url":"home.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"1cb5c7f2b48c43b881d9aa5c77cd6cad",
+          "label":"登陆框",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "size":{
+              "width":1616,
+              "height":3044},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"5aea724a48224dbd859207b780665584",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "size":{
+                  "width":1616,
+                  "height":3044},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/home/登陆框_u102.png"}},
+{
+          "id":"4ed0f7926a084f8e8e749ef1c904f5db",
+          "label":"用户名",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":false,
+          "style":{
+            "fontSize":"18px",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF5C5C5C,
+              "opacity":1},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF},
+            "location":{
+              "x":661,
+              "y":469},
+            "size":{
+              "width":395,
+              "height":40},
+            "visible":false},
+          "adaptiveStyles":{
+}},
+{
+          "id":"3ab1fca87f66477fb243e00fd5b0d8ca",
+          "label":"密码",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":false,
+          "style":{
+            "fontSize":"18px",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF5C5C5C,
+              "opacity":1},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF},
+            "location":{
+              "x":651,
+              "y":555},
+            "size":{
+              "width":395,
+              "height":40},
+            "visible":false},
+          "adaptiveStyles":{
+}},
+{
+          "id":"3512e7845f6249bd98a899c0fa2e44e7",
+          "label":"登陆",
+          "type":"buttonShape",
+          "styleType":"h2",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":715,
+              "y":661},
+            "size":{
+              "width":192,
+              "height":65}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"43cd6b6a5d44463eb64525f128a0b59d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":715,
+                  "y":661},
+                "size":{
+                  "width":192,
+                  "height":65}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"隐藏 登陆框,<br>用户名,<br>密码",
+                      "objectsToFades":[{
+                          "objectPath":["1cb5c7f2b48c43b881d9aa5c77cd6cad"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["4ed0f7926a084f8e8e749ef1c904f5db"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["3ab1fca87f66477fb243e00fd5b0d8ca"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"151b6d4121f740828c1c867c37dbc942",
+          "label":"登陆",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":1162,
+              "y":146},
+            "size":{
+              "width":60,
+              "height":28}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"dfff715c15354011977fadabce2ba296",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":1162,
+                  "y":146},
+                "size":{
+                  "width":60,
+                  "height":28}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 密码,<br>用户名,<br>登陆框",
+                      "objectsToFades":[{
+                          "objectPath":["3ab1fca87f66477fb243e00fd5b0d8ca"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["4ed0f7926a084f8e8e749ef1c904f5db"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["1cb5c7f2b48c43b881d9aa5c77cd6cad"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"a31c7fb92f8f4269a1c876fae95e791f",
+          "label":"登陆",
+          "type":"buttonShape",
+          "styleType":"h2",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":1153,
+              "y":371},
+            "size":{
+              "width":58,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"82280274f26e4e04954a2dd35e6c0225",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":1153,
+                  "y":371},
+                "size":{
+                  "width":58,
+                  "height":50}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"隐藏 登陆框,<br>用户名,<br>密码",
+                      "objectsToFades":[{
+                          "objectPath":["1cb5c7f2b48c43b881d9aa5c77cd6cad"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["4ed0f7926a084f8e8e749ef1c904f5db"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["3ab1fca87f66477fb243e00fd5b0d8ca"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "b6d03042e0194cb3b2c8fcac78f43743":{
+      "scriptId":"u0"},
+    "ec6852c0487948b2865f8ca18a154987":{
+      "scriptId":"u1"},
+    "5f4bfe97310d452498c784dd0c613d11":{
+      "scriptId":"u2"},
+    "d2a14dc8eb6b4077969327d53cf1c0ca":{
+      "scriptId":"u3"},
+    "fb27ead5b4d8416bbd0a7627addb819e":{
+      "scriptId":"u4"},
+    "55f8f6e46e75446a8b1bb24f3ab51ed0":{
+      "scriptId":"u5"},
+    "1bc8e80dcccc4d1a862e36cef223e2cd":{
+      "scriptId":"u6"},
+    "ed8ada967a594fe3965d3935954f0fa4":{
+      "scriptId":"u7"},
+    "4f5e6c8bcf294a2f849293deab93a0b9":{
+      "scriptId":"u8"},
+    "2e095ab2c4354255ab75c15cf8823e9c":{
+      "scriptId":"u9"},
+    "b8c55b9c79744e9d847674767c7be13e":{
+      "scriptId":"u10"},
+    "ff29f8e1667849ba97da8a1eb54bde3f":{
+      "scriptId":"u11"},
+    "eadb02001d0e4622b9eb6e80f4d29238":{
+      "scriptId":"u12"},
+    "e2400f1539a14f5d83bc0a236072498f":{
+      "scriptId":"u13"},
+    "a39078e487d54c6b9985f71536a70b26":{
+      "scriptId":"u14"},
+    "d7b388b3d68340caaa3c656e5a9f767a":{
+      "scriptId":"u15"},
+    "6c60fd168ba848d6a12f05900dbcecb3":{
+      "scriptId":"u16"},
+    "47c8e1b9ca0b4267a4e1ee586cc31a2d":{
+      "scriptId":"u17"},
+    "1cb5c7f2b48c43b881d9aa5c77cd6cad":{
+      "scriptId":"u18"},
+    "5aea724a48224dbd859207b780665584":{
+      "scriptId":"u19"},
+    "4ed0f7926a084f8e8e749ef1c904f5db":{
+      "scriptId":"u20"},
+    "3ab1fca87f66477fb243e00fd5b0d8ca":{
+      "scriptId":"u21"},
+    "3512e7845f6249bd98a899c0fa2e44e7":{
+      "scriptId":"u22"},
+    "43cd6b6a5d44463eb64525f128a0b59d":{
+      "scriptId":"u23"},
+    "151b6d4121f740828c1c867c37dbc942":{
+      "scriptId":"u24"},
+    "dfff715c15354011977fadabce2ba296":{
+      "scriptId":"u25"},
+    "a31c7fb92f8f4269a1c876fae95e791f":{
+      "scriptId":"u26"},
+    "82280274f26e4e04954a2dd35e6c0225":{
+      "scriptId":"u27"}}});
