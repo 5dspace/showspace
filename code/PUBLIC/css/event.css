@@ -1,4 +1,4 @@
-
+a {text-decoration:none;}
 #event_mid {
 	background-color:#dce2e9;
 	height:1334px;
@@ -9,6 +9,7 @@
 	margin:	auto;
 	background-color:white;
 	height:1334px;
+	overflow:hidden;
 	border-left: 2px #b9babc solid;
 	border-right:2px #b9babc solid;
 }
@@ -34,9 +35,9 @@
 	color:#ace0e0;
 }
 .event_path_text {
-	font-size:14pt;
+	font-size:14px;
 	font-family:"Microsoft YaHei UI";
-	margin-top:2px;
+	margin-top:6px;
 }
 .event_path_text a{
 	color:#808080;
@@ -53,12 +54,165 @@
 	margin:auto;
 	margin-top:62px;
 	border-top:2px #cbcbcb solid;
+	overflow:hidden;
 }
 #event_title {
+	margin-top:18px;
 }
 #event_title > p {
+	margin:0;
 	color:#232222;
 	font-family:"Microsoft YaHei UI";
 	font-size:18pt;
 	font-weight:bold;
+}
+/*event_swiper*/
+.event_swiper_container, .event_swiper_slide {
+	width:828px;
+	height:1000px;
+}
+.event_pagination {
+	position:relative;
+	left:250px;
+	top:-110px;
+}
+.event_content_main {
+	width:251px;
+	height:367px;
+	float:left;
+	border:1px #c4c3c3 solid;
+	margin:28px 11px 3px 11px;
+}
+.event_content_main_content {
+	margin:13px;
+}
+.event_content_text1 {
+	margin-top:3px;
+}
+.event_content_text2 {
+	margin-top:6px;
+}
+.event_content_text1 > a > p {
+	font-family:"Microsoft YaHei UI";
+	font-size:14px;
+	color:#363536;
+	margin:0;
+}
+.event_text_left {
+	float:left;
+}
+.event_text_right {
+	float:right;
+}
+.event_text_left > a > p {
+	font-family:"Microsoft YaHei UI";
+	font-size:12px;
+	color:#9c9c9c;
+	margin:0;
+}
+.event_text_right > p {
+	font-family:"Microsoft YaHei UI";
+	font-size:12px;
+	color:#9c9c9c;
+	margin:0;
+}
+.event_swiper_pagination_switch {
+	display:inline-block;
+	width:24px;
+	height:23px;
+	border-radius:23px;
+	background-color:#7f7f7f;
+	margin-right:18px;
+	border:none;
+	cursor:pointer;
+	opacity:0.8;
+}
+.event_swiper_active_switch {
+	background-color:#f3ac16;
+}
+/*swoper sitting*/
+/*
+ * Swiper - Mobile Touch Slider CSS
+ * http://www.idangero.us/sliders/swiper
+ *
+ * Vladimir Kharlampidi, The iDangero.us
+ * http://www.idangero.us/
+ * 
+ * Copyright 2012-2013, Vladimir Kharlampidi
+ * The iDangero.us
+ * http://www.idangero.us
+ *
+ * Licensed under GPL & MIT
+ *
+*/
+
+/* ===============================================================
+Basic Swiper Styles 
+================================================================*/
+.event_swiper_container {
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+	-o-backface-visibility:hidden;
+	backface-visibility:hidden;
+	/* Fix of Webkit flickering */
+	z-index:1;
+}
+.event_swiper_wrapper {
+	position:relative;
+	width:100%;
+	-webkit-transition-property:-webkit-transform, left, top;
+	-webkit-transition-duration:0s;
+	-webkit-transform:translate3d(0px,0,0);
+	-webkit-transition-timing-function:ease;
+	
+	-moz-transition-property:-moz-transform, left, top;
+	-moz-transition-duration:0s;
+	-moz-transform:translate3d(0px,0,0);
+	-moz-transition-timing-function:ease;
+	
+	-o-transition-property:-o-transform, left, top;
+	-o-transition-duration:0s;
+	-o-transform:translate3d(0px,0,0);
+	-o-transition-timing-function:ease;
+	-o-transform:translate(0px,0px);
+	
+	-ms-transition-property:-ms-transform, left, top;
+	-ms-transition-duration:0s;
+	-ms-transform:translate3d(0px,0,0);
+	-ms-transition-timing-function:ease;
+	
+	transition-property:transform, left, top;
+	transition-duration:0s;
+	transform:translate3d(0px,0,0);
+	transition-timing-function:ease;
+
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.swiper-free-mode > .event_swiper_wrapper {
+	-webkit-transition-timing-function: ease-out;
+	-moz-transition-timing-function: ease-out;
+	-ms-transition-timing-function: ease-out;
+	-o-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	margin: 0 auto;
+}
+.event_swiper_slide {
+	float: left;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+/* IE10 Windows Phone 8 Fixes */
+.swiper-wp8-horizontal {
+	-ms-touch-action: pan-y;
+}
+.swiper-wp8-vertical {
+	-ms-touch-action: pan-x;
 }
