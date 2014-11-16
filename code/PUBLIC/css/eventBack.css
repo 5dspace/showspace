@@ -244,114 +244,21 @@ select {
 	width:100%;
 	height:auto;
 }
-/*//////////////////////////////////////////second swiper////////////////*/
 
-/*swoper sitting*/
-/*
- * Swiper - Mobile Touch Slider CSS
- * http://www.idangero.us/sliders/swiper
- *
- * Vladimir Kharlampidi, The iDangero.us
- * http://www.idangero.us/
- * 
- * Copyright 2012-2013, Vladimir Kharlampidi
- * The iDangero.us
- * http://www.idangero.us
- *
- * Licensed under GPL & MIT
- *
-*/
-
-/* ===============================================================
-Basic Swiper Styles 
-================================================================*/
-.eventBack_swiper_container2 {
-	position:relative;
-	overflow:hidden;
-	-webkit-backface-visibility:hidden;
-	-moz-backface-visibility:hidden;
-	-ms-backface-visibility:hidden;
-	-o-backface-visibility:hidden;
-	backface-visibility:hidden;
-	/* Fix of Webkit flickering */
-	z-index:1;
-}
-.eventBack_swiper_wrapper2 {
-	position:relative;
-	width:100%;
-	-webkit-transition-property:-webkit-transform, left, top;
-	-webkit-transition-duration:0s;
-	-webkit-transform:translate3d(0px,0,0);
-	-webkit-transition-timing-function:ease;
-	
-	-moz-transition-property:-moz-transform, left, top;
-	-moz-transition-duration:0s;
-	-moz-transform:translate3d(0px,0,0);
-	-moz-transition-timing-function:ease;
-	
-	-o-transition-property:-o-transform, left, top;
-	-o-transition-duration:0s;
-	-o-transform:translate3d(0px,0,0);
-	-o-transition-timing-function:ease;
-	-o-transform:translate(0px,0px);
-	
-	-ms-transition-property:-ms-transform, left, top;
-	-ms-transition-duration:0s;
-	-ms-transform:translate3d(0px,0,0);
-	-ms-transition-timing-function:ease;
-	
-	transition-property:transform, left, top;
-	transition-duration:0s;
-	transform:translate3d(0px,0,0);
-	transition-timing-function:ease;
-
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
-}
-.swiper-free-mode > .eventBack_swiper_wrapper2 {
-	-webkit-transition-timing-function: ease-out;
-	-moz-transition-timing-function: ease-out;
-	-ms-transition-timing-function: ease-out;
-	-o-transition-timing-function: ease-out;
-	transition-timing-function: ease-out;
-	margin: 0 auto;
-}
-.eventBack_swiper_slide2 {
-	float: left;
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
-}
 /*////////////////to do it////////////////*/
 .eventBack_swiper_container2{
-	width:538px;
+	width:525px;
 	margin-top:41px;
-	height:859px;
+	height:800px;
+	overflow:hidden;
 }
-.eventBack_pagination2 {
-	position:relative;
-	top:-24px;
-	left:1px;
-}
-.eventBack_swiper_slide2 {
-	width:535px;
-	height:707px;
-}
-.eventBack_swiper_pagination_switch2 {
-	display:inline-block;
-	width:25px;
-	height:25px;
-	border-radius:25px;
-	background-color:#7f7f7f;
-	margin-right:25px;
-	cursor:pointer;
-}
-.eventBack_swiper_active_switch2 {
-	background-color:#f3ac16;
+#eventBack_swiper_wrapper2 {
+	width=0px;
+	height:800px;
 }
 /*////////////////////////////end swiper//////////////////////////////////////*/
 .eventBack_content_main_div {
+	float:left;
 	width:500px;
 	border:2.5px #acacac solid;
 	padding:10px;
@@ -377,13 +284,25 @@ Basic Swiper Styles
 	margin:10px auto 10px 5px;
 }
 #eventBack_pagination3 {
-	margin-top:50px;
-	font-family:"Microsoft YaHei UI";
-	font-size:18px;
-	color:black;
+	margin-top:20px;
 }
 #eventBack_pagination3 a {
-	margin-right:10px;
+	margin-right:20px;
+	color:black;
+	font-family:"Microsoft YaHei UI";
+	font-size:18px;
+	float:left;
+	padding:0 7px 0 7px;
+}
+#eventBack_1 {
+	border:1px black solid;
+}
+#eventBack_left {
+	visibility:hidden;
+	float:left;
+}
+#eventBack_right {
+	float:left;
 }
 /*///////////right////////////////////////////////////////////*/
 #eventBack_content_right_top {
@@ -395,6 +314,7 @@ Basic Swiper Styles
 	width:10px;
 	height:20px;
 	margin-right:5px;
+	display:block;
 }
 #eventBack_content_right_top p {
 	font-family:"Microsoft YaHei UI";
