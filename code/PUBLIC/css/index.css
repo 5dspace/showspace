@@ -1,0 +1,403 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #DBE3E9;
+}
+
+#index_main{
+	width: 1001px;
+	height:1964px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	border-color: #B8BDBE;
+	border-width: 1px;
+	border-style: ridge;
+}
+
+.index_border1{
+	height: 349px;
+	width: 555px;
+	background-color: white;
+	border:20px solid #dde4ea;
+	border-radius: 5px;
+	margin: 28px 0px 0px 35px;
+	float: left;
+}
+
+.index_swiper-container1{
+  height: 349px;
+  width: 555px;
+}
+
+.index_pagination1{
+  left: 0;
+  text-align: right;
+  bottom:4px;
+  width: 100%;
+}
+
+.index_swiper_pagination_switch1 {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: #48A7B6;
+  box-shadow: 0px 1px 2px #555 inset;
+  margin: 0 4px;
+  cursor: pointer;
+}
+.index_swiper_active_switch1 {
+  background: #989898;
+}
+
+
+.index_border2{
+	height: 349px;
+	width: 277px;
+	background-color: white;
+	border:20px solid #dde4ea;
+	border-radius: 5px;
+	margin: 28px 0px 0px 33px;
+	float: left;
+}
+
+.index_swiper-container2 {
+  height: 349px;
+  width: 277px;
+}
+
+.index_pagination2 {
+  left: 0;
+  text-align: center;
+  bottom:4px;
+  width: 100%;
+}
+
+.index_swiper_pagination_switch2 {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: #989898;
+  box-shadow: 0px 1px 2px #555 inset;
+  margin: 0 4px;
+  cursor: pointer;
+}
+.index_swiper_active_switch2 {
+  background: #48A7B6;
+}
+
+
+
+#index_first{
+	height: 203px;
+	width: 915px;
+	margin: 93px 39px 13px 49px;
+	float: left;
+}
+
+#index_first p{
+	font-family:"Microsoft Yahei";
+	font-size:16px;
+	color:#AFBFD3;
+	height:21px;
+	padding: 0px 0px 13px 0px;
+}
+
+#index_first p a{
+	font-family:"Microsoft Yahei";
+	font-size:16px;
+	color:black;
+	text-decoration: none;
+}
+
+#index_second{
+	width: 100%;
+	height: 448px;
+	float: left;
+}
+
+.index_title{
+	height: 35px;
+	width: 963px;
+	padding: 24px 0px 20px 20px;
+	float: left;
+	margin:0px 9px 0px 9px;
+	border-bottom-style: solid;
+	border-color: #9B9B9B;
+	border-bottom-width: 2px;
+}
+
+.index_title img{
+	float: left;
+}
+
+.index_title h2{
+	float: left;
+	font-family:"Microsoft Yahei";
+	font-size:16px;
+	font-weight:bold; 
+	padding: 12px 0px 0px 10px;
+}
+
+#index_tuwen{
+	height: 305px;
+	width: 952px;
+	margin:24px 17px 0px 33px;
+	float:left;
+}
+
+#index_tuwen article {
+	float: left;
+	width: 176px;
+	margin: 0px 14px 0px 0px;
+}
+
+.index_center{
+	width: 176px;
+}
+
+#index_tuwen article h3{
+	width: 162px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#index_tuwen article h3 a{
+	font-family:"Microsoft Yahei";
+	font-size:12px;
+	color:black;
+	text-decoration: none;
+}
+
+.index_more{
+	height: 39px;
+	width: 100%;
+	float: left;
+}
+
+.index_more div{
+	float: right;
+	width: 0;
+	height: 0;
+	border-left: 20px solid white;
+	border-top: 19px solid transparent;
+	border-bottom: 19px solid transparent;
+	background-color: #536C83;
+}
+
+.index_more p{
+	float: right;
+	background-color: #536C83;
+	width: 78px;
+	height: 38px;
+	text-align: center;
+}
+
+.index_more p a{
+	font-family:"Microsoft Yahei";
+	font-size:14px;
+	color:white;
+	text-decoration: none;
+	line-height: 38px;
+}
+
+#index_yingxiang{
+	width: 980px;
+	height: 427px;
+	margin:30px 9px 0px 12px;
+	float: left;
+}
+
+#index_v1{
+	width: 206px;
+	height: 214px;
+	float: left;
+	margin: 0px 0px 0px 35px;
+}
+
+#index_yingxiang h3{
+	font-family:"Microsoft Yahei";
+	font-size:14px;
+	width: 206px;
+}
+
+.index_data{
+	width: 103px;
+	margin: 0px 0px 18px 113px;
+	float: left;
+}
+
+.index_data img{
+	float: left;
+}
+
+.index_data p{
+	font-family:"Microsoft Yahei";
+	font-size:14px;
+	color: #D3D3D3;
+	float: left;	
+}
+
+
+
+
+
+/*swoper sitting*/
+/*
+ * Swiper - Mobile Touch Slider CSS
+ * http://www.idangero.us/sliders/swiper
+ *
+ * Vladimir Kharlampidi, The iDangero.us
+ * http://www.idangero.us/
+ * 
+ * Copyright 2012-2013, Vladimir Kharlampidi
+ * The iDangero.us
+ * http://www.idangero.us
+ *
+ * Licensed under GPL & MIT
+ *
+*/
+
+/* ===============================================================
+Basic Swiper Styles 
+================================================================*/
+.index_swiper-container2 {
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  -ms-backface-visibility:hidden;
+  -o-backface-visibility:hidden;
+  backface-visibility:hidden;
+  /* Fix of Webkit flickering */
+  z-index:1;
+}
+.index_swiper-wrapper2 {
+  position:relative;
+  width:100%;
+  -webkit-transition-property:-webkit-transform, left, top;
+  -webkit-transition-duration:0s;
+  -webkit-transform:translate3d(0px,0,0);
+  -webkit-transition-timing-function:ease;
+  
+  -moz-transition-property:-moz-transform, left, top;
+  -moz-transition-duration:0s;
+  -moz-transform:translate3d(0px,0,0);
+  -moz-transition-timing-function:ease;
+  
+  -o-transition-property:-o-transform, left, top;
+  -o-transition-duration:0s;
+  -o-transform:translate3d(0px,0,0);
+  -o-transition-timing-function:ease;
+  -o-transform:translate(0px,0px);
+  
+  -ms-transition-property:-ms-transform, left, top;
+  -ms-transition-duration:0s;
+  -ms-transform:translate3d(0px,0,0);
+  -ms-transition-timing-function:ease;
+  
+  transition-property:transform, left, top;
+  transition-duration:0s;
+  transform:translate3d(0px,0,0);
+  transition-timing-function:ease;
+
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.swiper-free-mode > .index_swiper-wrapper2 {
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  -ms-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  margin: 0 auto;
+}
+.index_swiper-slide2 {
+  float: left;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* IE10 Windows Phone 8 Fixes */
+.swiper-wp8-horizontal {
+  -ms-touch-action: pan-y;
+}
+.swiper-wp8-vertical {
+  -ms-touch-action: pan-x;
+}
+
+
+.index_swiper-container1 {
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  -ms-backface-visibility:hidden;
+  -o-backface-visibility:hidden;
+  backface-visibility:hidden;
+  /* Fix of Webkit flickering */
+  z-index:1;
+}
+.index_swiper-wrapper1 {
+  position:relative;
+  width:100%;
+  -webkit-transition-property:-webkit-transform, left, top;
+  -webkit-transition-duration:0s;
+  -webkit-transform:translate3d(0px,0,0);
+  -webkit-transition-timing-function:ease;
+  
+  -moz-transition-property:-moz-transform, left, top;
+  -moz-transition-duration:0s;
+  -moz-transform:translate3d(0px,0,0);
+  -moz-transition-timing-function:ease;
+  
+  -o-transition-property:-o-transform, left, top;
+  -o-transition-duration:0s;
+  -o-transform:translate3d(0px,0,0);
+  -o-transition-timing-function:ease;
+  -o-transform:translate(0px,0px);
+  
+  -ms-transition-property:-ms-transform, left, top;
+  -ms-transition-duration:0s;
+  -ms-transform:translate3d(0px,0,0);
+  -ms-transition-timing-function:ease;
+  
+  transition-property:transform, left, top;
+  transition-duration:0s;
+  transform:translate3d(0px,0,0);
+  transition-timing-function:ease;
+
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.swiper-free-mode > .index_swiper-wrapper1{
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  -ms-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  margin: 0 auto;
+}
+.index_swiper-slide1 {
+  float: left;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* IE10 Windows Phone 8 Fixes */
+.swiper-wp8-horizontal {
+  -ms-touch-action: pan-y;
+}
+.swiper-wp8-vertical {
+  -ms-touch-action: pan-x;
+}
