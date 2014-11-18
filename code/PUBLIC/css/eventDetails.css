@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #dce2e9;
+    font-family: "Microsoft Yahei";
+}
+
+#eventDetails_container{
+    background-color: #ffffff;
+    width:1001px;
+    height: 1071px;
+    margin:0px auto;
+}
+
+#eventDetails_container li{
+    float:left;
+    color: #818181;
+    font-size: 14px;
+    list-style-type: none;
+    margin-right: 12px;
+    margin-top: 13px;
+}
+
+#eventDetails_lu{
+    position: relative;
+    top:-6px;
+    left:3px;
+}
+
+#eventDetails_text{
+    position: relative;
+    top:-27px;
+    left:10px;
+    color: #acded8;
+}
+
+.eventDetails_gt{
+    color: #98b6c1;
+}
+
+#eventDetails_activity{
+    margin: 20px 0px 0px 65px;
+}
+
+#eventDetails_activity img{
+    /*width: 263px;*/
+    /*height: 374px;*/
+    float:left;
+    position: relative;
+    left:-13px;
+}
+
+#eventDetails_introduction{
+    float:left;
+    margin-left: 20px;
+}
+
+#eventDetails_introduction a{
+    text-decoration: none;
+}
+
+#eventDetails_introduction header{
+    font-size: 21px;
+    color: #000;
+    margin-bottom: 18px;
+    margin-top: 13px;
+}
+
+#eventDetails_introduction span{
+    color:#c4c4c4;
+}
+
+#eventDetails_header{
+    font-size: 18px;
+    position:relative;
+    left:480px;
+}
+
+.eventDetails_line{
+    width:558px;
+    height: 0px;
+    border: 1px solid #c4c4c4;
+    clear:right;
+    margin:11px 10px 32px 0px;
+}
+
+.eventDetails_p{
+    margin: 0px 0px 25px 3px;
+    font-size: 16px;
+}
+
+#eventDetails_apply{
+    border:1px dashed #52adba;
+    border-radius: 8px;
+    background-color: #e5e9ef;
+    color: #52adba;
+    font-size: 16px;
+    width: 91px;
+    height: 33px;
+    text-align: center;
+    line-height: 31px;
+}
+
+#eventDetails_details{
+    clear: left;
+    position: relative;
+    top:40px;
+}
+
+
+#eventDetails_header2{
+    font-size: 18px;
+    position:relative;
+    left:780px;
+    color:#c4c4c4;
+}
+
+#eventDetails_details .eventDetails_line{
+    width: 867px;
+    margin-left: 65px;
+}
+
+#eventDetails_details p{
+    width:850px;
+    margin-left: 72px;
+}

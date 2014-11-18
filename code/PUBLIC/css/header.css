@@ -1,0 +1,124 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #dbe3e9;
+}
+
+header{
+    height:191px;
+    width:100%;
+    background-color: #333333;
+    overflow: hidden;
+}
+
+header .header_content{
+    height:176px;
+    width:1001px;
+    margin:0px auto;
+}
+
+.header_content .header_logo{
+    position:relative;
+    top:38px;
+    left:20px;
+}
+
+.header_content .header_logo img{
+    width:289px;
+    height:80px;
+}
+
+.header_content li{
+    float:left;
+    color: white;
+    font-family: "Microsoft Yahei";
+    font-size: 21px;
+    list-style-type: none;
+    position:relative;
+    top:60px;
+    left:25px;
+}
+
+.header_nav a{
+    text-decoration:none;
+    color: white;
+}
+
+.header_content .header_line{
+    margin:0px 22px;
+    color:#4d4d4d;
+}
+
+.header_content .header_select li{
+    float:left;
+    font-size: 16px;
+    position:relative;
+    top:66px;
+    left:150px;
+    margin:0px 14px;
+}
+
+.header_menu .header_triangle{
+    width: 0;
+    height: 0;
+    border-top: 35px solid #eaeaea;
+    border-left: 40px solid transparent;
+    float:right;
+}
+.header_menu .header_square{
+    width:680px;
+    height:35px;
+    background-color: #eaeaea;
+    float:right;
+}
+
+.header_square li{
+    font-size: 16px;
+    color:#050506;
+    margin-right:10px;
+    position: relative;
+    top:5px;
+    left:9px;
+    cursor: default;
+}
+
+.header_menu{
+    position: relative;
+    top:-109px;
+    right:-220px;
+}
+
+#header_slide{
+    width:65px;
+    height:4px;
+    background-color:#bebdbe;
+    position: relative;
+    top:31px;
+    left:9px;
+}
+
+.header_content input{
+    width: 171px;
+    height: 32px;
+    background-color: #7f7f7f;
+    border:none;
+    float: right;
+    position: relative;
+    left:610px;
+    top:-28px;
+}
+
+#header_pic1{
+    position: relative;
+    left:70px;
+    top:5px;
+}
+
+header #header_bar{
+    height:15px;
+    width:100%;
+    background-color: #526e82;
+}
