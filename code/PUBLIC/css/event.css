@@ -34,18 +34,17 @@ a {text-decoration:none;}
 	margin-left:8px;
 	color:#ace0e0;
 }
-.event_path_text {
+.event_path_text a{
+	color:#959595;
 	font-size:14px;
 	font-family:"Microsoft YaHei UI";
 	margin-top:6px;
-}
-.event_path_text a{
-	color:#808080;
 }
 .event_path_cla {
 	margin-top:6px;
 	margin-left:14px;
 	margin-right:14px;
+	color:#8aacbf;
 }
 /*content*/
 #event_content {
@@ -67,6 +66,7 @@ a {text-decoration:none;}
 	font-weight:bold;
 }
 /*event_swiper*/
+
 .event_swiper_container, .event_swiper_slide {
 	width:828px;
 	height:1000px;
