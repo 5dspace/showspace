@@ -1,28 +1,22 @@
 /*
 	videoPage
 */
-#video_page {
-	width: 982px;
-	height: 1800px;
-	margin: 0 auto;
-	padding: 0 5px;
-	border-left: 1px solid #aaa;
-	border-right: 1px solid #aaa;
-	background-color: #fff;
-	font-family: "微软雅黑", "Regular";
-}
-
 a { text-decoration: none;}
-li {list-style-type:  none;}
+li {list-style-type: none;}
 p, div, li, ul {
 	margin: 0;
 	padding: 0;
 }
 
-#video_route_info span:first-child{
-	background: url('../images/video_route.png') no-repeat;
-	background-size: 100%;
-	padding: 7px 20px 7px 10px;
+#video_page {
+	width: 982px;
+	height: 1800px;
+	margin: 0 auto;
+	padding: 7px 10px 0 10px;
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	background-color: #fff;
+	font-family: "微软雅黑", "Regular";
 }
 
 #video_route_info span, #video_route_info a {
@@ -30,15 +24,25 @@ p, div, li, ul {
 	font-size: 14px;
 	color: #808080;
 	display: inline-block;
-	padding: 3px 0;
+	height: 28px;
 	margin: 3px;
+	line-height: 28px;
 }
 
 #video_route_info span {
-	color: #b1e8e8;
+	color: #ace0e0;
+}
+
+#video_route_info span:first-child{
+	background: url('../images/video_route.png') no-repeat;
+	background-size: 100%;
+	width: 43px;
+	padding-left: 8px;
+	text-align: left;
 }
 
 .video_headline {
+	vertical-align: super;
 	display: inline-block;
 	font-weight: bold;
 	font-size: 18px;
@@ -48,7 +52,7 @@ p, div, li, ul {
 .video_pointer {
 	display: inline-block;
 	width: 35px;
-	height: 34px;
+	height: 35px;
 	margin: 0 5px 0 20px;
 	background: url('../images/video_pointer.png') no-repeat;
 }
@@ -79,7 +83,7 @@ p, div, li, ul {
 	position: relative;
 	width: 100px;
 	height: 40px;
-	bottom: 30px;
+	bottom: 23px;
 	left: 370px;
 }
 
@@ -132,16 +136,23 @@ p, div, li, ul {
 	vertical-align: middle;
 }
 
+.video_list span {
+	line-height: 14px;
+	vertical-align: text-bottom;
+}
+
 .video_list p:nth-of-type(1) {
 	font-weight: bold;
 	color: #000000;
 	font-size: 14px;
 	text-indent: 7px;
+	height: 21px;
 }
 
 .video_list p:last-child {
 	font-size: 14px;
 	color: #d2d2d2;
+	margin-top: 23px;
 	margin-left: 103px;
 }
 
@@ -150,7 +161,7 @@ p, div, li, ul {
 	text-align: center;
 	position: absolute;
 	bottom: -25px;
-	right: -6px;
+	right: -11px;
 	width: 97px;
 	height: 40px;
 	line-height: 40px;
@@ -164,10 +175,9 @@ p, div, li, ul {
 	videoDetail
 */
 #video_show_page {
-	width: 982px;
+	width: 1000px;
 	height: 1600px;
 	margin: 0 auto;
-	padding: 0 5px;
 	border-left: 1px solid #aaa;
 	border-right: 1px solid #aaa;
 	background-color: #fff;
@@ -185,49 +195,49 @@ p, div, li, ul {
 }
 
 #video_onshow {
-	width: 678px;
+	width: 713px;
 }
 
 .video_wait_pagination {
-	width: 300px;
-	height: 40px;
+	width: 282px;
+	height: 50px;
 	margin-bottom: 3px;
 	border-top: 1px solid #dce2e9;
 }
 
-.video_wait_swiitch {
+.video_wait_switch {
 	display:inline-block;
-	width: 148px;
-	height: 100%;
+	width: 138px;
+	height: 50px;
 	background-color:#dce2e9;
 	cursor:pointer;
 }
 
-.video_wait_swiitch p {
+.video_wait_switch p {
 	font-size: 18px;
 	line-height: 18px;
 	display: inline-block;
 }
 
-.video_wait_swiitch .video_pointer {
+.video_wait_switch .video_pointer {
 	margin: 3px 5px;
 	vertical-align: middle;
 }
 
-.video_wait_swiitch.active {
+.video_wait_switch.active {
 	background-color: #ffffff;
 }
 
 #video_wait_show_list {
 	display: inline-block;
-	width: 300px;
-	height: 464px;
+	width: 282px;
+	height: 490px;
 }
 
 .video_wait_show_wrapper {
 	overflow-y: auto;
 	overflow-x: hidden;
-	height: 424px;
+	height: 432px;
 }
 
 .video_wait_show_slide {
@@ -244,23 +254,33 @@ p, div, li, ul {
 }
 
 .video_wait_list video {
-	width: 140px;
+	width: 130px;
 }
 
 .video_wait_info {
 	float: right;
 	display: inline-block;
-	width: 145px;
+	width: 130px;
+	padding-left: 5px;
 }
 
 .video_wait_info p {
-	font-size: 15px;
+	font-size: 14px;
 	text-indent: 10px;
 }
 
 .video_wait_info p:last-child {
-	margin-top: 15px;
+	height: 23px;
+	margin-top: 4px;
 	text-align: center;
+}
+
+.video_wait_info span {
+	vertical-align: middle;
+}
+
+.video_wait_info img {
+	vertical-align: middle;
 }
 
 .video_reply_wrapper_outer {
@@ -344,7 +364,7 @@ p, div, li, ul {
 	right: 20px;
 	bottom: 10px;
 	color: #c4c4c4;
-	font-size: 14pt;
+	font-size: 11pt;
 }
 
 #video_paging_number {
@@ -384,7 +404,7 @@ p, div, li, ul {
 Basic Swiper Styles 
 ================================================================*/
 #video_fast_show_list {
-	margin:0 auto;
+	margin:0 28px 0 0;
 	position:relative;
 	overflow:hidden;
 	-webkit-backface-visibility:hidden;

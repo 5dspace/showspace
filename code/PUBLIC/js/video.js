@@ -5,18 +5,18 @@ window.onload = function() {
 		loop:false,
 		pagination: '.video_pagination',
 		paginationClickable:true,
-		paginationElementClass: 'video_swiitch',
+		paginationElementClass: 'video_switch',
 		paginationActiveClass: 'video_active_switch'
 	});
 
-	$('.video_wait_swiitch').eq(0).click( function(){
+	$('.video_wait_switch').eq(0).click( function(){
 		$(this).next().removeClass('active');
 		$(this).addClass('active');
 		$('.video_wait_show_slide').eq(1).removeClass('active');
 		$('.video_wait_show_slide').eq(0).addClass('active');
 	});
 
-	$('.video_wait_swiitch').eq(1).click( function() {
+	$('.video_wait_switch').eq(1).click( function() {
 		$(this).prev().removeClass('active');
 		$(this).addClass('active');
 		$('.video_wait_show_slide').eq(0).removeClass('active');
