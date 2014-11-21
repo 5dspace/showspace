@@ -37,7 +37,7 @@ body{
     color: #acded8;
 }
 
-.eventDetails_gt{
+#eventDetails_container .eventDetails_gt{
     color: #98b6c1;
 }
 
